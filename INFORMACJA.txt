@@ -1,0 +1,10 @@
+Konto logowania do konta administratora na portalu trzeba utworzyć w bazie danych 
+wpisując w miejsce rola: administrator
+
+Aby działało hasło zaq1@WSX
+W miejsce hasła wklej: c380f833034d60bf035a134094eb538d600dc6f9
+
+W miejsce czyAktywowano wpisz "TAK"
+
+
+Baza danych znajduje sie w pliku rumcajs.sql

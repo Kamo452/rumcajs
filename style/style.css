@@ -1,0 +1,132 @@
+
+* {
+    font-family: 'Verdana';
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+nav, table, h2{
+    margin-bottom: 0 !important;
+    margin-top: 0;
+}
+#bledy, #godziny {
+    margin: 0;
+}
+.alert {
+    margin-bottom: 0px;
+}
+div {
+    margin: 0;
+}
+#naglowek {
+    background-color: #00a591;
+    color: #bafff7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#reklama {
+    background-color: #eafffd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body {
+    text-align: center;
+    background-color: white;
+    overflow-y: scroll;
+}
+#stopka {
+    clear: both;
+    background-color: #22999b;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+#formularz {
+    background-color: #bafff7;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+    color: #005248;
+    align-items: center;
+}
+section {
+    width: 100%;
+    float: left;
+}
+#posty {
+    text-align: center;
+    width: 100%;
+}
+@media (max-width:768px){ .post {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+} }
+@media (min-width:768px){ .post {
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    color: #006256;
+    margin-left: 25%;
+    margin-right: 25%;
+} }
+.post {
+    margin-top: 20px; margin-bottom: 20px; background-color: #eafffd; padding-top: 40px; padding-bottom: 50px;
+}
+.post a {
+    text-decoration: none;
+    color: #006256;
+}
+#dodajPost {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#dodajPost button {
+    background-color: #006256;
+    color: #fefbd8;
+    width: 400px;
+    height: 50px;
+    font-size: auto;
+}
+#dodajPost button:hover {
+    background-color: #008373;
+}
+hr {
+    border-top: 1px solid black;
+}
+#przywitanie {
+    background-color: #eafffd;
+}
+input[type="submit"] {
+    background-color: #006256;
+    color: #fefbd8;
+    width: 300px;
+    height: 50px;
+    font-size: auto;
+    margin-top: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #008373;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    margin-top: 10px;
+}
+#rejestracja {
+    background-color: #006256;
+    color: #fefbd8;
+    width: 150px;
+    height: 30px;
+    font-size: auto;
+}
+#rejestracja:hover {
+    background-color: #008373;
+}
+
